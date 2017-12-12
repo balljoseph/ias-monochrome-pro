@@ -1,0 +1,893 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"genesis-",
+				"genesis-responsive-menu"
+			],
+			[
+				"fff",
+				"f5f5f5"
+			],
+			[
+				"fron",
+				"front-page-5"
+			],
+			[
+				"front",
+				"front-page-4"
+			],
+			[
+				"front-page",
+				"front-page-2"
+			],
+			[
+				"on",
+				"one-fourth"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"menu",
+				"menu-main-menu"
+			],
+			[
+				"sans",
+				"sans-serif"
+			],
+			[
+				"work",
+				"work-excerpt"
+			],
+			[
+				"work-",
+				"work-excerpt"
+			],
+			[
+				"foot",
+				"footer-widgets-1"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"entry",
+				"entry-title"
+			],
+			[
+				"archive",
+				"archive-description"
+			],
+			[
+				"single-",
+				"single-post"
+			],
+			[
+				"wo",
+				"work-footer"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"is_post",
+				"is_post_type_archive"
+			],
+			[
+				"post-",
+				"post-meta"
+			],
+			[
+				"entr",
+				"entry-content"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bio",
+				"bio-photo"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"footer",
+				"footer-widgets-1"
+			],
+			[
+				"footer-widg",
+				"footer-widgets-2"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"page",
+				"page-id-13"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"genesis_before_",
+				"genesis_before_post_content"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"content",
+				"content-sidebar-wrap"
+			],
+			[
+				"title",
+				"title-area"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"wp",
+				"wp_head"
+			],
+			[
+				"add",
+				"add_action"
+			],
+			[
+				"genesis_afe",
+				"genesis_after_post_title"
+			],
+			[
+				"rss",
+				"rss-output"
+			],
+			[
+				"oldmod",
+				"oldmodeldiagram"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"gn",
+				"genesis-nav-menu"
+			],
+			[
+				"not",
+				"Noticia"
+			],
+			[
+				"page-",
+				"page-contact"
+			],
+			[
+				"post",
+				"post-type-archive-press"
+			],
+			[
+				"type",
+				"type-press"
+			],
+			[
+				"archi",
+				"archive-description"
+			],
+			[
+				"in",
+				"introdescription"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"gene",
+				"genesis_after_post_content"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 13206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style-front.css",
+			"settings":
+			{
+				"buffer_size": 16586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wp-content/plugins/wp-migrate-db-pro-tweaks/wp-migrate-db-pro-tweaks.php",
+			"settings":
+			{
+				"buffer_size": 17559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 46970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 3621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/theme-defaults.php",
+			"settings":
+			{
+				"buffer_size": 1927,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/global.js",
+			"settings":
+			{
+				"buffer_size": 2478,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "single.php",
+			"settings":
+			{
+				"buffer_size": 2532,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/wp-content/themes/monochrome-pro/lib/helper-functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/monochrome-pro/js/front-page.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/monochrome-pro/js/backstretch-set.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/monochrome-pro/js/backstretch.js",
+		"/Users/ayc/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ayc/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ayc/Dropbox/LADBS/tabtest/tabtest.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/js/jquery.localScroll.min.js",
+		"/Applications/MAMP/htdocs/wp-includes/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/js/jquery-scrolltofixed-min.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/js/overlay.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/style.css",
+		"/Users/az/Sites/erd/checkin.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/css/iconic-glyphs-legacy.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/css/iconic-glyphs.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/archive.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/home.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/js/primarymenu.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/page_blog.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/category.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/tag.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/page_work.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/page_resources.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/page_technology.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/page_contact.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/page_about.php",
+		"/Applications/MAMP/htdocs/healthcheckins/app/views/hello.php",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/az/Documents/Life/amazon-automator.rb",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/style.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/page_home.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/js/headsupgrid/hugridload.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/js/sticky-nav.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/js/sticky-menu.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/page_confirmation.php",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/README.md",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/js/stick-menu.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/cptarchivesinmenus.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/sidebar-programloop.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/sidebar-serviceloop.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/program_widgets.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/services.txt",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro-child-theme/programs.txt",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestrochildtheme/style.css",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestrochildtheme/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro child theme/functions.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/caremaestro child theme/style.css",
+		"/Users/az/Dropbox/MAMP htdoc mirrors/ac/wp-config.php",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/page_home.php",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/style.css",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/functions.php",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/page_program_overview.php",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/page_events.php",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/archive_programs.php",
+		"/Users/az/Dropbox/CareMaestro/caremaestro child theme/page-home.php",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/README.md",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/az/Library/Application Support/Sublime Text 2/Packages/User/Chrome.sublime-build"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/wp-content/themes/monochrome-pro",
+			"/Applications/MAMP/htdocs/",
+			"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme",
+			"/Applications/MAMP/htdocs/",
+			"/Applications/MAMP/htdocs/wp-content/themes/",
+			"/Applications/MAMP/htdocs/wp-content/themes/ac-child-theme",
+			"/Users/az/Documents/Design/Design aids/webpage templates/wordpress themes/wordpress3.6"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".button",
+			"entry-footer",
+			"meta",
+			"after-",
+			"entry-foo",
+			"button",
+			"after-entry",
+			"gca-colum",
+			"button",
+			"image",
+			"widget",
+			"site-header",
+			".header-image .site-title > a",
+			"mc",
+			"before-footer-cta",
+			".front-page-5",
+			"site-header",
+			".shadow",
+			"shadow",
+			"footer",
+			"site-header",
+			"anita",
+			"header",
+			"navigation",
+			"form",
+			"Helvetica Neue",
+			"site-inner",
+			":after",
+			"site-container",
+			"site-header",
+			"body",
+			"site-header",
+			"thumbnail",
+			"Muli",
+			"footer",
+			"\\$default_action\\s*=\\s*['\"]FilesMan['\"]\\s",
+			"h2",
+			"1000",
+			"840",
+			"scrollTo",
+			"localScroll",
+			"get_currentuserinfo",
+			"nav",
+			"load",
+			"Clearing",
+			"primarymenu",
+			"nexa-bold",
+			"#content",
+			"479",
+			"nexabold",
+			"apple",
+			"lor",
+			"Nexa-Bold",
+			"NexaRegular",
+			"nexa",
+			"read more",
+			"transfer",
+			"enque",
+			"script",
+			"bio-",
+			"work-excerpt",
+			"work",
+			"script",
+			"Anthony Quinn",
+			"featured",
+			"post",
+			"featured",
+			"alignleft",
+			"overflow",
+			"e1eb",
+			"e1b7",
+			"e002",
+			"e141",
+			"e14e",
+			"e156",
+			"e1b2",
+			"e1eb",
+			"hover",
+			"#work-footer",
+			"font-size",
+			"excerpt",
+			"primary",
+			"is_tag",
+			"genesis",
+			"thumbnail",
+			"work",
+			".menu-primary",
+			"archive",
+			".work-loop",
+			".genesis-nav-menu",
+			"menu",
+			"NexaRegular",
+			"Nexa Regular",
+			"Nexa Bold",
+			"webfonts",
+			"a img",
+			"title",
+			"webfonts",
+			"nexa",
+			"Nexa",
+			"webfont",
+			"nexa",
+			"Nexa",
+			"nexa_heavy",
+			"heavy",
+			"logo",
+			"img",
+			"a:hover",
+			"content",
+			"nav",
+			"work-loop",
+			"footer-widget",
+			"#content",
+			"shadow",
+			"submit",
+			"alignright",
+			"gallery",
+			"caption",
+			"script",
+			"caption",
+			"a:ho",
+			"footer-widgets",
+			"a:hover",
+			".widget-title",
+			"footer-widgets",
+			"footer-widget",
+			"footer",
+			"h1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Arial",
+			"NexaBold",
+			"Chris Shahnazarian",
+			"#menu-main-menu"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 13206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4087,
+								4087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1766.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style-front.css",
+					"settings":
+					{
+						"buffer_size": 16586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7276,
+								7276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4946.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/wp-content/plugins/wp-migrate-db-pro-tweaks/wp-migrate-db-pro-tweaks.php",
+					"settings":
+					{
+						"buffer_size": 17559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1134,
+								1134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 46970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17087,
+								17087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15146.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "front-page.php",
+					"settings":
+					{
+						"buffer_size": 3621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3509,
+								3509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 713.0,
+						"translation.y": 1001.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/theme-defaults.php",
+					"settings":
+					{
+						"buffer_size": 1927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/global.js",
+					"settings":
+					{
+						"buffer_size": 2478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								998,
+								998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "single.php",
+					"settings":
+					{
+						"buffer_size": 2532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2234,
+								2234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.955752212389,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"cptarchivesinmenus.php"
+			],
+			[
+				"page",
+				"page_contact.php"
+			],
+			[
+				"stye",
+				"style.css"
+			],
+			[
+				"sticky",
+				"js/sticky-menu.js"
+			],
+			[
+				"home",
+				"page_home.php"
+			],
+			[
+				"style",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
