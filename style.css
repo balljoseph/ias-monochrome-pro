@@ -1559,7 +1559,7 @@ img.alignright,
 	opacity: 1;
 }
 
-
+.button.menu-item {padding:0px 10px;}
 
 
 /* Header Menu
@@ -2109,7 +2109,7 @@ body.archive p.entry-meta {
 }
 
 
-/* Sidebar
+/* Sidebars and GCA columns
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
@@ -2154,6 +2154,22 @@ body.archive p.entry-meta {
 .after-entry .gca-column h4 {
 	margin-top:10px;
 }
+
+/* For GCA-column Talk archives*/
+.talk-speaker-list {
+display:table;margin:0 auto;max-width:100%;
+}
+
+.talk-speaker-list .one-fifth {
+	display:table-cell;float:none;
+}
+
+@media only screen and (max-width: 860px) {
+	.talk-speaker-list {
+		display:block;
+	}
+
+	.talk-speaker-list .one-fifth {display:inline-block;}
 
 /* Before Footer CTA
 ---------------------------------------------------------------------------------------------------- */
