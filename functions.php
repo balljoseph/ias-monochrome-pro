@@ -63,35 +63,6 @@ function monochrome_enqueue_scripts_styles() {
 }
 
 
-/**
-* The Events Calendar - Bypass Genesis genesis_do_post_content in Event Views
- *
- * This snippet overrides the Genesis Content Archive settings for Event Views
- *
- * Event Template set to: Admin > Events > Settings > Display Tab > Events template > Default Page Template
- * 
- * The Events Calendar @4.0.4
- * Genesis @2.2.6
-*/
-add_action( 'get_header', 'tribe_genesis_bypass_genesis_do_post_content' );
-function tribe_genesis_bypass_genesis_do_post_content() {
- 
-    if ( class_exists( 'Tribe__Events__Main' ) && class_exists( 'Tribe__Events__Pro__Main' ) ) {
-        if ( tribe_is_month() || tribe_is_upcoming() || tribe_is_past() || tribe_is_day() || tribe_is_map() || tribe_is_photo() || tribe_is_week() || ( tribe_is_recurring_event() && ! is_singular( 'tribe_events' ) ) ) {
-            remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-            remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-            add_action( 'genesis_entry_content', 'the_content', 15 );
-        }
-    } elseif ( class_exists( 'Tribe__Events__Main' ) && ! class_exists( 'Tribe__Events__Pro__Main' ) ) {
-        if ( tribe_is_month() || tribe_is_upcoming() || tribe_is_past() || tribe_is_day() ) {
-            remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-            remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-            add_action( 'genesis_entry_content', 'the_content', 15 );
-        }
-    }
- 
-}
-
 // Define our responsive menu settings.
 function monochrome_responsive_menu_settings() {
 
@@ -436,3 +407,71 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Before-Footer CTA', 'monochrome-pro' ),
 	'description' => __( 'This is the call-to-ation area placed before the footer.', 'monochrome-pro' ),
 ) );
+
+
+/**
+* The Events Calendar - Bypass Genesis genesis_do_post_content in Event Views
+ *
+ * This snippet overrides the Genesis Content Archive settings for Event Views
+ *
+ * Event Template set to: Admin > Events > Settings > Display Tab > Events template > Default Page Template
+ * 
+ * The Events Calendar @4.0.4
+ * Genesis @2.2.6
+*/
+add_action( 'get_header', 'tribe_genesis_bypass_genesis_do_post_content' );
+function tribe_genesis_bypass_genesis_do_post_content() {
+ 
+    if ( class_exists( 'Tribe__Events__Main' ) && class_exists( 'Tribe__Events__Pro__Main' ) ) {
+        if ( tribe_is_month() || tribe_is_upcoming() || tribe_is_past() || tribe_is_day() || tribe_is_map() || tribe_is_photo() || tribe_is_week() || ( tribe_is_recurring_event() && ! is_singular( 'tribe_events' ) ) ) {
+            remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+            remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+            add_action( 'genesis_entry_content', 'the_content', 15 );
+        }
+    } elseif ( class_exists( 'Tribe__Events__Main' ) && ! class_exists( 'Tribe__Events__Pro__Main' ) ) {
+        if ( tribe_is_month() || tribe_is_upcoming() || tribe_is_past() || tribe_is_day() ) {
+            remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+            remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+            add_action( 'genesis_entry_content', 'the_content', 15 );
+        }
+    }
+ 
+}
+
+/**
+ * Sets the default date for Tribe Event Calendar
+ *
+ * Expects to be called during tribe_events_pre_get_posts. Note that this
+ * function modifies $_REQUEST - this is needed for consistency because
+ * various parts of TEC inspect that array directly to determine the current
+ * date.
+ * 
+ * @param WP_Query $query
+ */
+function tribe_force_event_date( WP_Query $query ) {
+    // Don't touch single posts or queries other than the main query
+    if ( ! $query->is_main_query() || is_single() ) {
+        return;
+    }
+    // If a date has already been set by some other means, bail out
+    if ( strlen( $query->get( 'eventDate' ) ) || ! empty( $_REQUEST['tribe-bar-date'] ) ) {
+        return;
+    }
+    // Change this to whatever date you prefer
+    $default_date = '2018-03-21';
+    // Use the preferred default date
+    $query->set( 'eventDate', $default_date );
+    $query->set( 'start_date', $default_date );
+    // $_REQUEST['tribe-bar-date'] = $default_date;
+}
+add_action( 'tribe_events_pre_get_posts', 'tribe_force_event_date' ); 
+
+add_filter( 'tribe-events-bar-filters',  'remove_date_from_bar', 1000, 1 );
+ 
+function remove_date_from_bar( $filters ) {
+  if ( isset( $filters['tribe-bar-date-filter'] ) ) {
+        unset( $filters['tribe-bar-date-filter'] );
+    }
+ 
+    return $filters;
+}

@@ -686,6 +686,11 @@ p .line {
 	color: #fff;
 }
 
+.flexible-widgets .featuredpost {max-width:1000px;margin:2em auto;float:none;}
+.flexible-widgets .featuredpost .widgettitle {text-align:center;}
+.flexible-widgets .featuredpost article .entry-header {border-top:4px solid #4C4C4D;}
+/*.flexible-widgets .featuredpost article .entry-title a {text-decoration:none;color:#4C4C4D;}*/
+
 /*.image-section a {
 	border-bottom: 1px solid #fff;
 }*/
