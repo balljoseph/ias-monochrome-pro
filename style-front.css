@@ -18,7 +18,8 @@
 .front-page h2 {
 	font-weight:300;
 	padding-bottom:60px;
-	line-height:1.4;	
+	line-height:1.4;
+	font-size:1.4em;
 }
 /*.front-page h2:after, .front-page h2.circle:before, .gca-column.one-fourth .line.up:after {
 	content:"";
@@ -62,7 +63,7 @@ p .line {
 	left:-8px;
 }
 .front-page h2 strong {
-	font-size:1.6em;
+	font-size:2.4em;
 	padding:0 0.1em;
 }
 .front-page .site-header {
@@ -276,8 +277,6 @@ p .line {
 	font-weight: 900;
 	letter-spacing: -1px;
 	line-height: 1;
-	margin-bottom: 10px;
-	padding-right: 10%;
 	text-transform: none;
 }
 
@@ -304,7 +303,7 @@ p .line {
 }
 
 .front-page-2 .widget-title {
-	text-align:left;
+	text-align:center;
 }
 .front-page-2 .flexible-widgets .widget:nth-of-type(1) p {
 	font-size: 18px;
@@ -677,7 +676,7 @@ p .line {
 }
 
 .flexible-widgets .featuredpost article a.alignnone {display:inline;}
-.flexible-widgets .featured-content article img {float:left;margin-right:10px;}
+.flexible-widgets .featured-content article img {float:left;margin:20px 20px 0 0;}
 .flexible-widgets .featuredpost article {margin-top:2rem;}
 
 .image-section a,
@@ -686,7 +685,7 @@ p .line {
 	color: #fff;
 }
 
-.flexible-widgets .featuredpost {max-width:1000px;margin:2em auto;float:none;}
+.flexible-widgets .featuredpost {max-width:1100px;margin:2em auto;float:none;}
 .flexible-widgets .featuredpost .widgettitle {text-align:center;}
 .flexible-widgets .featuredpost article .entry-header {border-top:4px solid #4C4C4D;}
 /*.flexible-widgets .featuredpost article .entry-title a {text-decoration:none;color:#4C4C4D;}*/
@@ -774,6 +773,13 @@ p .line {
 
 }
 
+@media only screen and (max-width:991px) {
+	.front-page-2 .flexible-widgets.widget-area .featuredpost:nth-child(1) .entry, .front-page-2 .flexible-widgets.widget-halves.uneven .featuredpost .entry {clear:both;width:100%;}
+	.flexible-widgets article img {display:none;}
+	.front-page-2 .flexible-widgets.widget-area .featuredpost:nth-child(1) .entry:nth-of-type(even), .front-page-2 .flexible-widgets.widget-halves.uneven .featuredpost .entry:nth-of-type(even) {padding-left:0;}
+	.flexible-widgets .featuredpost article .entry-header {border:none;}
+}
+
 @media only screen and (max-width: 800px) {
 	.front-page-1 .gca-column.one-fourth {
 		width:23.076923076923077%;
@@ -782,6 +788,7 @@ p .line {
 	.widget-halves a.button {
 		width:100%;
 	}
+
 }
 
 @media only screen and (max-width: 782px) {
@@ -794,6 +801,7 @@ p .line {
 	.front-page .wrap {
 		max-width: 100%;
 	}
+
 
 .flexible-widgets .featuredpost article a.alignnone {display:inline;}
 
@@ -834,5 +842,7 @@ p .line {
 	.admin-bar.front-page .site-inner {
 		margin-top: 0;
 	}
+
+	.front-page h2 {font-size:1em;}
 
 }
