@@ -112,7 +112,7 @@ remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
 add_action( 'genesis_after_entry', 'custom_after_entry', 9 );
 function custom_after_entry() {
 
-   if ( ! is_singular( array( 'post', 'page' )) )
+   if ( ! is_singular( array( 'post', 'page','talk' )) )
         return;
 
         genesis_widget_area( 'after-entry', array(
@@ -409,13 +409,16 @@ genesis_register_sidebar( array(
 ) );
 
 
+/****************
+*****************
+Copy the following functions into any new functions.php if you change the theme!
+*****************
+*****************
+
 /**
 * The Events Calendar - Bypass Genesis genesis_do_post_content in Event Views
- *
  * This snippet overrides the Genesis Content Archive settings for Event Views
- *
  * Event Template set to: Admin > Events > Settings > Display Tab > Events template > Default Page Template
- * 
  * The Events Calendar @4.0.4
  * Genesis @2.2.6
 */
@@ -474,4 +477,16 @@ function remove_date_from_bar( $filters ) {
     }
  
     return $filters;
+}
+
+
+/* Output filter for my_date in Pods posts
+   Use this against a date field in your Pods Fields like so:
+   {@post_date,my_date}
+
+   The Function below should be in your functions.php
+*/
+
+function my_date($input_date) {
+     return date("F j, Y", strtotime($input_date));         
 }

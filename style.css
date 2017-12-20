@@ -549,7 +549,7 @@ input[type="submit"],
 	font-size: 1.0em;
 	font-weight: 500;
 	letter-spacing: 1px;
-	line-height: 1;
+	line-height: 1.5;
 	padding: 20px 30px;
 	text-decoration: none;
 /*	text-transform: uppercase;
@@ -931,11 +931,11 @@ th:first-child {
  	font-size:0.8em;
  }*/
 
-.after-entry {
+/*.after-entry {
 	box-shadow: 0 10px 80px rgba(0,0,0,.10);
 	padding: 30px 50px;
 	margin-bottom:30px;
-}
+}*/
 
 .entry-content .after-entry h2,
 .entry-content .after-entry h3,
