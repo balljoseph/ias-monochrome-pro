@@ -80,8 +80,6 @@ p .line {
 }
 
 
-
-
 .front-page .site-inner {
 	margin-bottom: 0;
 	/*margin-top: 80px;*/
@@ -715,6 +713,11 @@ p .line {
 	display: none;
 }
 
+
+.widget_media_image h3 {
+	font-size:1.2em;
+	font-weight:300;
+}
 
 /* Fadeup Effect
 ---------------------------------------------------------------------------------------------------- */
