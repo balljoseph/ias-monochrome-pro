@@ -25,6 +25,8 @@ $has_venue_address = ( ! empty( $venue_details['address'] ) ) ? ' location' : ''
 // Organizer
 $organizer = tribe_get_organizer();
 
+
+
 ?>
 
 <!-- Event Title -->
@@ -34,6 +36,21 @@ $organizer = tribe_get_organizer();
 		<?php the_title() ?>
 	</a>
 </h2>
+<? // Get categories
+add_action( 'tribe_get_event_categories', 'display_but_not_link_event_cats' );
+
+				echo tribe_get_event_categories(get_the_id(), array(
+								'before'       => '',
+								'sep'          => ', ',
+								'after'        => '',
+								'label'        => 'Category', // An appropriate plural/singular label will be provided
+								'label_before' => '<span class="event-categories">',
+				                'label_after'  => '</span>',
+								'wrap_before'  => '<span class="tribe-events-event-categories">',
+								'wrap_after'   => '</span>',
+							)
+						);
+						?>
 <?php do_action( 'tribe_events_after_the_event_title' ) ?>
 
 <!-- Event Meta -->

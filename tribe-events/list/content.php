@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<!-- List Title -->
 	<?php do_action( 'tribe_events_before_the_title' ); ?>
-	<h2 class="tribe-events-page-title"><?php echo tribe_get_events_title() ?></h2>
+	<!-- <h2 class="tribe-events-page-title"><?php echo tribe_get_events_title() ?></h2> -->
 	<?php do_action( 'tribe_events_after_the_title' ); ?>
 
 	<!-- Notices -->
@@ -51,6 +51,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php if ( have_posts() ) : ?>
 		<?php do_action( 'tribe_events_before_loop' ); ?>
 		<?php tribe_get_template_part( 'list/loop' ) ?>
+
+
 		<?php do_action( 'tribe_events_after_loop' ); ?>
 	<?php endif; ?>
 

@@ -675,7 +675,7 @@ p .line {
 
 .flexible-widgets .featuredpost article a.alignnone {display:inline;}
 .flexible-widgets .featured-content article img {float:left;margin:20px 20px 0 0;}
-.flexible-widgets .featuredpost article {margin-top:2rem;}
+.flexible-widgets .featuredpost article {margin-top:2rem;margin-bottom:0.5em!important;}
 
 .image-section a,
 .image-section .featured-content .entry-meta a,

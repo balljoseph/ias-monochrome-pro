@@ -320,9 +320,9 @@ h1 {
 	font-size: 3.6rem;
 }
 
-h2 {
+h2,#tribe-events-pg-template .tribe-events-content h2, .tribe-events-after-html h2, .tribe-events-before-html h2 {
 	font-size: 30px;
-	font-size: 3.0rem;
+	font-size: 3.0rem!important;
 }
 
 h3 {
@@ -334,7 +334,7 @@ h3 {
 .big {
 	font-size:180%;
 }
-.widget_wysiwyg_widgets_widget .widget-wrap {
+.widget_wysiwyg_widgets_widget .widget-wrap, .center-block {
 	max-width:900px;
 	margin:0 auto;
 }
@@ -369,14 +369,16 @@ h3 {
 	width: 5%;
 }
 
-h4 {
+h4, #tribe-events-pg-template .tribe-events-content h4, .tribe-events-after-html h4, .tribe-events-before-html h4 {
 	font-size: 20px;
-	font-size: 2rem;
+	font-size: 2rem!important;
 }
 
 .entry-content h2,
 .entry-content h3,
-.entry-content h4 {
+.entry-content h4,
+#tribe-events-pg-template .tribe-events-content h4, .tribe-events-after-html h4, .tribe-events-before-html h4, .tribe-events-list h2,
+#tribe-events-pg-template .tribe-events-content h2, .tribe-events-after-html h2, .tribe-events-before-html h2 {
 	margin-bottom: 5px;
 	padding-top: 15px;
 	font-weight:700;
@@ -1780,17 +1782,20 @@ img.alignright,
 	margin-bottom: 0;
 }
 
-.entry-content ol,
+
+#tribe-events-content {margin-top:2rem;}
+
+.entry-content ol, #tribe-events ol > li, #tribe-events ul > li, 
 .entry-content ul {
 	margin-bottom: 30px;
 	margin-left: 40px;
 }
 
-.entry-content ol > li {
+.entry-content ol > li, #tribe-events ol > li {
 	list-style-type: decimal;
 }
 
-.entry-content ul > li {
+.entry-content ul > li, #tribe-events ul > li {
 	list-style-type: disc;
 }
 
@@ -2364,6 +2369,17 @@ overflow:hidden;}
 }
 
 .powerpress_links {margin:-2em auto 2em;font-size:80%;}
+.more-from-category {text-align:right;}
+
+/* Separate Tribe Event changes */
+.tribe-events-cost {display:block;}
+.tribe-events-loop .tribe-event-schedule-details {font-size:15px; font-size:1.5em; font-weight:300;}
+.single-tribe_events .tribe-events-cal-links {display:none!important;}
+.events-list #tribe-events-footer, .single-tribe_events #tribe-events-footer, .tribe-events-day #tribe-events-footer, .tribe-events-map #tribe-events-footer, .tribe-events-photo #tribe-events-footer {
+	border-top:none!important;
+	padding-top:0!important;
+}
+span.event-categories {font-weight:700;}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */

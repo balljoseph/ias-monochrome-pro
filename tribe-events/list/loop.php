@@ -18,10 +18,62 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $post;
 global $more;
 $more = false;
-?>
+
+// Get array of venues (per day??) and sort alphabetically
+$venues = tribe_get_venues($only_with_upcoming = true);
+sort($venues);
+
+$conf_events = tribe_get_events(array());
+/* ?> <pre> <?php var_dump($conf_events); ?></pre>
+<?
+*/
+
+/*  Get array of events, with heading only when start day changes 
+From https://theeventscalendar.com/support/forums/topic/how-to-customize-the-upcoming-events-loop/ 
+*/
+// $different_day =  '';
+     //Grab  current event date
+     // $eventDate = tribe_get_start_date($post->ID, true, $format = 'l, F j, Y' ); 
+         
+      //If the current event date does not match the variable, print the date heading
+     // if ($different_day != $eventDate){
+       //  echo "<h2>".$eventDate."</h2>"; }
+         
+        //Update the date variable to the most recent event
+      // $different_day = $eventDate; 
+     ?>
+         
+<!-- <table class="tribe-events-calendar">
+		<thead>
+		<tr>
+			<th>Room</th>
+			<?php foreach ( $venues as $venue ) : ?>
+				<th title="<?php echo esc_attr( $venue->post_title ); ?>" ><?php echo $venue->post_title ?></th>
+			<?php endforeach; ?>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<?php while ( tribe_events_have_month_days() ) : tribe_events_the_month_day(); ?>
+			<?php if ( $week != tribe_events_get_current_week() ) : $week ++; ?>
+		</tr>
+		<tr>
+			<?php endif; ?>
+
+			<?php
+			// Get data for this day within the loop.
+			$daydata = tribe_events_get_current_month_day(); ?>
+
+			<td>
+				<?php tribe_get_template_part( 'month/single', 'day' ) ?>
+			</td>
+			<?php endwhile; ?>
+		</tr>
+		</tbody>
+	</table> -->
+
 
 <div class="tribe-events-loop">
-
 	<?php while ( have_posts() ) : the_post(); ?>
 		<?php do_action( 'tribe_events_inside_before_loop' ); ?>
 

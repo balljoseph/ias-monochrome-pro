@@ -490,3 +490,11 @@ function remove_date_from_bar( $filters ) {
 function my_date($input_date) {
      return date("F j, Y", strtotime($input_date));         
 }
+
+// Remove link in TEC event categories
+add_filter( 'tribe_get_event_categories', 'display_but_not_link_event_cats' );
+function display_but_not_link_event_cats( $html ) {
+	$new_html = preg_replace( '/<a href=\"(.*?)\">(.*?)<\/a>/', "\\2", $html ); // from http://www.stumiller.me/code-snippet-strip-links-from-string-in-php/
+
+	return $new_html;
+}
