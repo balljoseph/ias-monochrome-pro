@@ -1783,23 +1783,23 @@ img.alignright,
 }
 
 
-#tribe-events-content {margin-top:2rem;}
+#tribe-events-content, .tribe-events-content {margin-top:2rem;}
 
-.entry-content ol, #tribe-events ol > li, #tribe-events ul > li, 
+.entry-content ol, #tribe-events ol, #tribe-events ul, .tribe-events-content ol, .tribe-events-content ul, 
 .entry-content ul {
 	margin-bottom: 30px;
 	margin-left: 40px;
 }
 
-.entry-content ol > li, #tribe-events ol > li {
+.entry-content ol > li, #tribe-events ol > li, .tribe-events-content ol > li  {
 	list-style-type: decimal;
 }
 
-.entry-content ul > li, #tribe-events ul > li {
+.entry-content ul > li, #tribe-events ul > li, .tribe-events-content ul > li  {
 	list-style-type: disc;
 }
 
-.entry-content ol ol,
+.entry-content ol ol, #tribe-events ol ol, #tribe-events ul ul, .tribe-events-content ol ol, .tribe-events-content ul ul, 
 .entry-content ul ul {
 	margin-bottom: 0;
 }
